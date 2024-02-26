@@ -8,18 +8,21 @@
         Title="MyFirstWindow" Height="450" Width="800" Background="#FFCC9999">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
             <ColumnDefinition Width="2*"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*" MinWidth="50"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition MaxHeight="300" MinHeight="100"></RowDefinition>
+            <RowDefinition ></RowDefinition>           
         </Grid.RowDefinitions>
         
-        <Button FontSize="45" FontWeight="Bold" Background="Aqua" Grid.Column="0" >Click me</Button>
-        <Button FontSize="45" FontWeight="Bold" Background="Green" Grid.Column="1" Grid.Row="1">Click me</Button>
-        <Button FontSize="45" FontWeight="Bold" Background="Red" Grid.Column="2" >Click me</Button>
+        <Button Margin="15,5,20,30" FontSize="45" FontWeight="Bold" Background="Aqua" Grid.Column="0" Click="Button_Click">Click me</Button>
+        <Button FontSize="45" FontWeight="Bold" Background="Green" Grid.Column="1" Grid.Row="1" Click="Button_Click_1">Click me</Button>
+        <Button FontSize="45" FontWeight="Bold" Background="Red" Grid.Column="2" Grid.ColumnSpan="2" Click="Button_Click_2">Click me</Button>
+        <Button Content="Test" Grid.Column="3" Grid.Row="1" Click="Button_Click"></Button>
+        
+        <TextBox x:Name="textBox" Grid.Column="1" TextWrapping="Wrap"></TextBox>
     </Grid>
 </Window>
