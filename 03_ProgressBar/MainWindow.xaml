@@ -1,0 +1,15 @@
+﻿<Window x:Class="_03_ProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_03_ProgressBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <ProgressBar Name="progressBar" Height="30" Margin="10" Maximum="100" Minimum="0" Value="35" Width="600"></ProgressBar>
+        <ProgressBar Height="30" Margin="10" Maximum="100" Minimum="0" IsIndeterminate="True" Foreground="Aqua"></ProgressBar>
+        <Button Margin="10" Width="300" Click="Button_Click">Start</Button>
+        <Button Margin="10" Width="300" Click="Button_Click_1">Stop</Button>
+    </StackPanel>
+</Window>
