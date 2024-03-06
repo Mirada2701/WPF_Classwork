@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Slider", "04_Slider\04_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ComboBox", "05_ComboBox\05_ComboBox.csproj", "{68B07459-2487-4920-A37D-87AA14BAA4D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ListBox", "06_ListBox\06_ListBox.csproj", "{C387ABE5-0A33-4940-A4EA-2394C6755B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68B07459-2487-4920-A37D-87AA14BAA4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B07459-2487-4920-A37D-87AA14BAA4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B07459-2487-4920-A37D-87AA14BAA4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
