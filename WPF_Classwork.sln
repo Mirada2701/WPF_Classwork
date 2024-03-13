@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ComboBox", "05_ComboBox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ListBox", "06_ListBox\06_ListBox.csproj", "{C387ABE5-0A33-4940-A4EA-2394C6755B1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_DataBinding", "07_DataBinding\07_DataBinding.csproj", "{4F322906-FD20-419C-8349-C8FFC5314C7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C387ABE5-0A33-4940-A4EA-2394C6755B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F322906-FD20-419C-8349-C8FFC5314C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F322906-FD20-419C-8349-C8FFC5314C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F322906-FD20-419C-8349-C8FFC5314C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F322906-FD20-419C-8349-C8FFC5314C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
